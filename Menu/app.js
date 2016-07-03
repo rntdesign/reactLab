@@ -14,8 +14,10 @@ var Menu  = React.createClass({
 	},
 	render: function() {
 		return <div className="menu">
-			<div ClassName={(this.state.visible ? 	"visible" : "") + }	
-	}
+			<div ClassName={(this.state.visible ? 	"visible" : "") + this.props.alignment } >{this.props.chidren}
+			</div>
+			</div> }	
+	}	
 });
 
 
