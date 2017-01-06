@@ -8,7 +8,7 @@ var App = React.createClass({
 			
 			<div className="application-wrapper">
 				
-				<div className="application_routeHlandler">
+				<div className="application-routeHlandler">
 				   <CreateAccountScreen>
 				</div>
 
@@ -16,3 +16,5 @@ var App = React.createClass({
 		)
 	}
 });
+
+module.exports = App;
