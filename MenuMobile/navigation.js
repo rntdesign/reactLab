@@ -38,3 +38,19 @@ navigationLinks() {
       </ul>
 	]
 }
+	
+renderNavigation() {
+  if(this.state.windowWidth <=  1080) {
+    return [
+       <div className="mobile_nav">
+	<p onClick={this.handleNavClick.bind(this)}><i class="material-icons"> view_headline<i></p>
+	{ this.renderMobileNav()  }
+      </div>
+    ];
+  } else {
+  return [
+    <div key={7} className="nav_menu">
+    { this.navigationLinks() }    	
+    ];
+  }	
+}
