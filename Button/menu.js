@@ -15,7 +15,18 @@ var Listitem = React.createClass({
 	},
 
 	render: function() {
-
+	   var isSelected = this.state.isSelected;
+           var style = {
+               'background-color': ''
+           };
+           if (isSelected) {
+               style = {
+                   'background-color': '#ccc'
+               };
+           }
+           return (
+               <li onClick={this.handleClick} style={style}>{this.props.content}</li>
+           );
 	}
 
 });
