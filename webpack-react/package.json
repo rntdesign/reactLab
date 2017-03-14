@@ -1,0 +1,23 @@
+{
+  "name": "webpacj",
+  "version": "1.0.0",
+  "description": "webpack reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rntdesign/reactLab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rntdesign/reactLab/issues"
+  },
+  "homepage": "https://github.com/rntdesign/reactLab#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
