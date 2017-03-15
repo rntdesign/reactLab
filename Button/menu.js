@@ -31,4 +31,4 @@ var Listitem = React.createClass({
 
 });
 
-React.renderComponent(<TestApp2 />, document.getElementById('soln2'));
+React.renderComponent(<TestApp2 />, document.getElementById('button'));
