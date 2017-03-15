@@ -5,7 +5,6 @@ var Listitem = React.createClass({
 		return {
 			isSelected: false;
 		};
-
 	},
 
 	handleClick: function() {
@@ -28,7 +27,6 @@ var Listitem = React.createClass({
                <li onClick={this.handleClick} style={style}>{this.props.content}</li>
            );
 	}
-
 });
 
 React.renderComponent(<TestApp2 />, document.getElementById('button'));
